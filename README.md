@@ -3,6 +3,12 @@ A PDO Database Wrapper Class written in PHP with auto-schema mapping of MySQl/SQ
 
 ## Available Methods
 
+### function run($sql, $bind = "", $entity_decode = true)
+This method is used to run free-form SQL statements that can't be handled by the included delete, insert, select, or update methods. If no SQL errors are produced, this method will return the number of affected rows for DELETE, INSERT, and UPDATE statements, or an object of results for SELECT, DESCRIBE, and PRAGMA statements.
+
+Note: HTML Entities returned from 'select' queries will be decoded by default. Set $entity_decode = false otherwise.
+
+
 ### select($table, $where = "", $bind = "", $fields = "*", $entity_decode = true)
 
 Example #1

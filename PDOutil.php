@@ -36,7 +36,7 @@ class PDOutil extends PDO {
             parent::__construct($dsn, $user, $passwd, $options);
         } catch (PDOException $e) {
             $this->error = $e->getMessage();
-            error_log('MobileDetails PDOutil _construct error: ' . $this->error, 0);
+            error_log('PDOutil _construct error: ' . $this->error, 0);
         }
     }
 
