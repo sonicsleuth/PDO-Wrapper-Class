@@ -1,5 +1,5 @@
-# PDO-Wrapper-Class for PHP (MySQL/SQLlite)
-A PDO Database Wrapper Class written in PHP providing CRUD methods and auto-schema mapping.
+# PDO-Wrapper-Class for PHP (MySQL/SQLite)
+A PDO Database Wrapper Class written in PHP with auto-schema mapping of MySQl/SQLite.
 
 ## Available Methods
 
