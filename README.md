@@ -1,5 +1,5 @@
-# PDO-Wrapper-Class for PHP (MySQL/SQLite)
-A PDO Database Wrapper Class written in PHP with auto-schema mapping of MySQl/SQLite.
+# Database Abstraction Layer (DBAL) for MySQL/SQLite
+Database Abstraction Layer (DBAL) for MySQL/SQLite written in PHP.
 
 ## Available Methods
 
